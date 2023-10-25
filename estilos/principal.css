@@ -96,3 +96,57 @@
 .logoGrande {
     width: 30rem;
 }
+
+.sectionServicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    flex-direction: column;
+    font-family: 'Sometype Mono', monospace;
+    height: 100%;
+}
+
+.tituloSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.2rem solid black;
+    width: 90%;
+}
+
+.contenedorServicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.boxServicios {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+
+}
+
+.logoFondo {
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+
