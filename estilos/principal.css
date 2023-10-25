@@ -2,6 +2,9 @@
 .navbar {
     background-color: #333333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
 }
 
 .nav-link {
