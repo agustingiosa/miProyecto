@@ -1,3 +1,4 @@
+
 .navbar {
     background-color: #333333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -5,10 +6,12 @@
 
 .nav-link {
     color: #fcfaf9;
+    font-family: 'Sometype Mono', monospace;
 }
 
-.navbar-nav {
-
+.nav-link:hover {
+    color: #318ce7;
+    scale: 1.02;
 }
 
 .navbar-collapse {
@@ -27,6 +30,8 @@
 
 .contenedorInicio {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
 }
 
@@ -36,7 +41,7 @@
     align-items: center;
     flex-direction: column;
     width: 40rem;
-    height: 20rem;
+    height: 21rem;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     color: white;
@@ -45,15 +50,26 @@
     position: relative;
 }
 
+.boxInicio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
 .boxInicio h1 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    
+    font-family: 'Sometype Mono', monospace;
+    border-bottom: 0.1rem solid white;
 }
 
 .boxInicio p {
     text-align: justify;
     margin-bottom: 2rem;
+    font-family: 'Sometype Mono', monospace;
 }
 
 .botonContacto {
@@ -61,12 +77,22 @@
     color: white;
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     width: 8rem;
-    height: 2.5rem;
     border: 0rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Sometype Mono', monospace;
 }
 .botonContacto:hover {
     background-color: #318ce7;
 }
 .botonContacto:active {
     background-color: #023e8a;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.logoGrande {
+    width: 30rem;
 }
