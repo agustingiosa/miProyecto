@@ -1,0 +1,18 @@
+@media (max-width: 1399px) {
+    .boxServicios2 {
+        height: 25rem;
+    }
+}
+
+@media (max-width: 1188px) {
+    .contenedorInicio {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px) {
+    .sectionServicios {
+    
+    }
+}
+
