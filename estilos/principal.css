@@ -6,6 +6,7 @@
     position: fixed;
     z-index: 3;
     transition: all 0.3s;
+    top: 0rem;
 }
 
 .nav-link {
@@ -246,6 +247,14 @@ footer {
     width: 4rem;
     bottom: 9rem;
     right: 2rem; 
+}
+
+.imagenContacto {
+    width: 100%;
+}
+
+.espacio {
+    margin-top: 5rem;
 }
 
 

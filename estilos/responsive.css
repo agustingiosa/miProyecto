@@ -8,11 +8,92 @@
     .contenedorInicio {
         flex-direction: column;
     }
+    .boxInicio {
+        height: 17rem;
+    }
+    .boxInicio h1 {
+        font-size: 1rem;
+    }
+    .boxInicio p {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 991px) {
-    .sectionServicios {
-    
+    .textoSectionImagen {
+        font-size: 1.8rem;
+    }
+    .boxSectionImagen {
+        background-position: center;
+    }
+}
+
+@media (max-width: 677px) {
+    .boxInicio {
+        height: 16rem;
+        width: 35rem;
+    }
+    .boxInicio h1 {
+        font-size: 0.8rem;
+    }
+    .boxInicio p {
+        font-size: 0.6rem;
+    }
+    .logoGrande {
+        width: 25rem;
+    }
+    .textoSectionImagen {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 537px) {
+    .form-group {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 585px) {
+    .boxInicio {
+        height: 16rem;
+        width: 30rem;
+    }
+    .boxInicio h1 {
+        font-size: 0.8rem;
+    }
+    .boxInicio p {
+        font-size: 0.6rem;
+    }
+    .logoGrande {
+        width: 20rem;
+    }
+    .textoSectionImagen {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 495px) {
+    .boxInicio {
+        height: 16rem;
+        width: 19rem;
+    }
+    .boxInicio h1 {
+        font-size: 0.7rem;
+    }
+    .boxInicio p {
+        font-size: 0.5rem;
+    }
+    .logoGrande {
+        width: 17rem;
+    }
+    .textoSectionImagen {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 437px) {
+    .form-group {
+        width: 20rem;
     }
 }
 
