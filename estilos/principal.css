@@ -257,6 +257,32 @@ footer {
     margin-top: 5rem;
 }
 
+.sectionSobreNosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sometype Mono', monospace;
+    margin: 2rem;
+    flex-direction: column;
+}
+
+.boxSobreNosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vh;
+    margin: 2rem;
+}
+
+.boxSobreNosotros p {
+    text-align: justify;
+}
+
+.boxSobreNosotros h2 {
+    border-bottom: 0.2rem solid #4a9ae9;
+    margin-bottom: 1rem;
+}
 
 
 
