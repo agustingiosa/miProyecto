@@ -284,6 +284,16 @@ footer {
     margin-bottom: 1rem;
 }
 
+.boxNuestrosTrabajos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333333;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+}
+
 
 
 
