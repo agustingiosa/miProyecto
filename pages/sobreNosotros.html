@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/principal.css">
     <link rel="stylesheet" href="../estilos/responsive.css">
 </head>
@@ -16,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="../objetos/logo webtec con bordes.webp" alt=""></a>
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../objetos/logo webtec con bordes.webp" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
         <a href=""><img class="iconoWppFixed2" src="../objetos/iconoMail.webp" alt=""></a>
         <section class="sectionServicios">
             <div class="tituloSection espacio">
-                <h2>Sobre nosotros</h2>
+                <h2 data-aos="fade-right">Sobre nosotros</h2>
             </div>
             <div class="container">
                 <img class="imagenContacto" src="../objetos/oficina copia.jpg" alt="">
@@ -48,30 +49,30 @@
         </section>
         <section class="sectionSobreNosotros">
             <div class="boxSobreNosotros">
-                <h2>quienes somos</h2>
+                <h2 data-aos="fade-right">quienes somos</h2>
                 <p>Somos una empresa apasionada por la creación de soluciones web personalizadas. En [Nombre de la Empresa], 
                     nuestro enfoque principal es materializar las visiones de nuestros clientes en aplicaciones web únicas y funcionales. 
                     Con un compromiso inquebrantable con la calidad y la innovación, estamos aquí para dar vida a tus ideas.
                 </p>
             </div>
             <div class="boxSobreNosotros">
-                <h2>Mision</h2>
+                <h2 data-aos="fade-right">Mision</h2>
                 <p>Nuestra misión es transformar tus conceptos en experiencias digitales. Comprendemos que cada proyecto es único, 
                     por lo que trabajamos mano a mano contigo para diseñar y desarrollar soluciones web a medida que satisfagan tus necesidades y objetivos específicos.</p>
             </div>
             <div class="boxSobreNosotros">
-                <h2>Equipo</h2>
+                <h2 data-aos="fade-right">Equipo</h2>
                 <p>Contamos con un equipo de desarrolladores altamente especializados en diversas disciplinas. Su experiencia abarca desde la programación avanzada 
                     hasta el diseño de interfaces atractivas y amigables. Esto nos permite ofrecer aplicaciones web de primera calidad que combinan funcionalidad y estética.</p>
             </div>
             <div class="boxSobreNosotros">
-                <h2>Calidad garantizada</h2>
+                <h2 data-aos="fade-right">Calidad garantizada</h2>
                 <p>En [Nombre de la Empresa], la calidad es la piedra angular de nuestro trabajo. Cada línea de código, 
                     cada diseño y cada función se someten a rigurosas pruebas y evaluaciones para garantizar que tu aplicación web cumpla 
                     con los más altos estándares de rendimiento y usabilidad.</p>
             </div>
             <div class="boxSobreNosotros">
-                <h2>comunicacion con el cliente</h2>
+                <h2 data-aos="fade-right">comunicacion con el cliente</h2>
                 <p>Creemos en la colaboración cercana y la comunicación transparente. Trabajamos contigo en cada etapa del proceso de desarrollo, 
                     desde la conceptualización hasta la implementación y más allá. Tu retroalimentación es esencial para crear una aplicación web que refleje 
                     verdaderamente tus objetivos.</p>
@@ -171,6 +172,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     <script src="../script.js"></script> 
 </body>
 </html>

@@ -12,10 +12,11 @@
 .nav-link {
     color: #fcfaf9;
     font-family: 'Sometype Mono', monospace;
+    transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #318ce7;
+    color: #318ce7 !important;
     scale: 1.02;
 }
 
@@ -239,6 +240,10 @@ footer {
     width: 4rem;
     bottom: 4rem;
     right: 2rem; 
+    transition: transform 0.2s ease;
+}
+.iconoWppFixed:hover {
+    transform: scale(1.1);
 }
 
 .iconoWppFixed2 {
@@ -247,6 +252,10 @@ footer {
     width: 4rem;
     bottom: 9rem;
     right: 2rem; 
+    transition: transform 0.2s ease;
+}
+.iconoWppFixed2:hover {
+    transform: scale(1.1);
 }
 
 .imagenContacto {
@@ -282,6 +291,7 @@ footer {
 .boxSobreNosotros h2 {
     border-bottom: 0.2rem solid #4a9ae9;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .boxNuestrosTrabajos {

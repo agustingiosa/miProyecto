@@ -1,18 +1,27 @@
 window.addEventListener('scroll', function() {
-    var elemento = document.querySelector('.iconoWppFixed');
-    var elemento2 = document.querySelector('.iconoWppFixed2');
+    var elementos = document.querySelectorAll('.iconoWppFixed');
+    var elementos2 = document.querySelectorAll('.iconoWppFixed2');
     var alturaDeLaVentana = window.innerHeight;
     var desplazamientoActual = window.scrollY;
 
     if (desplazamientoActual >= alturaDeLaVentana) {
-        elemento.style.display = 'flex';
-        elemento2.style.display = 'flex';
+        elementos.forEach(function(elemento) {
+            elemento.style.display = 'flex';
+        });
+        elementos2.forEach(function(elemento) {
+            elemento.style.display = 'flex';
+        });
     }
     if (desplazamientoActual <= alturaDeLaVentana) {
-        elemento.style.display = 'none';
-        elemento2.style.display = 'none';
+        elementos.forEach(function(elemento) {
+            elemento.style.display = 'none';
+        });
+        elementos2.forEach(function(elemento) {
+            elemento.style.display = 'none';
+        });
     }
 });
+
 
 window.addEventListener('scroll', function() {
     var elemento = document.querySelector('.navbar');
