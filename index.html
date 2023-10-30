@@ -12,6 +12,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/principal.css">
     <link rel="stylesheet" href="./estilos/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
         <a href=""><img class="iconoWppFixed2" src="./objetos/iconoMail.webp" alt=""></a>
         <section class="sectionInicio">
             <div class="contenedorInicio">
-                <div class="boxInicio">
+                <div data-aos="fade-right" class="boxInicio">
                     <h1>Transformando Ideas en Experiencias Digitales </h1>
                     <p>Somos expertos en el mundo del desarrollo y diseño web. Nuestro enfoque es transformar ideas en
                         experiencias digitales impresionantes. Creamos sitios web a medida que combinan creatividad,
@@ -49,7 +50,7 @@
                     </p>
                     <button class="botonContacto">Contacto</button>
                 </div>
-                <div class="boxInicio2">
+                <div data-aos="fade-left" class="boxInicio2">
                     <img class="logoGrande" src="./objetos/logo webtec copia.webp" alt="">
                 </div>
             </div>
@@ -60,7 +61,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div data-aos="zoom-in" class="col-md-4 d-flex align-items-center justify-content-center">
                         <div class="boxServicios ">
                             <img class="items" src="./objetos/trabajo.webp" alt="">
                             <h2>Landing page</h2>
@@ -68,7 +69,7 @@
                             <button class="botonContacto">Consultar</button>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div data-aos="zoom-in" class="col-md-4 d-flex align-items-center justify-content-center">
                         <div class="boxServicios ">
                             <img class="items" src="./objetos/empresas.webp" alt="">
                             <h2>Empresas</h2>
@@ -78,7 +79,7 @@
                             <button class="botonContacto">Consultar</button>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div data-aos="zoom-in" class="col-md-4 d-flex align-items-center justify-content-center">
                         <div class="boxServicios ">
                             <img class="items" src="./objetos/ecommerce.webp" alt="">
                             <h2>Ecommerce</h2>
@@ -104,7 +105,7 @@
         <section class="sectionServicios">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-4 align-items-center justify-content-center">
+                    <div data-aos="flip-left" class="col-12 col-md-12 col-lg-4 align-items-center justify-content-center">
                         <div class="boxServicios2">
                             <img class="items" src="./objetos/personalizado.webp" alt="">
                             <h2>Diseño personalizado</h2>
@@ -112,7 +113,7 @@
                             <button class="botonContacto">Consultar</button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <div data-aos="flip-left" class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
                         <div class="boxServicios2">
                             <img class="items" src="./objetos/responsive.webp" alt="">
                             <h2>Diseño responsive</h2>
@@ -120,7 +121,7 @@
                             <button class="botonContacto">Consultar</button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <div data-aos="flip-left" class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
                         <div class="boxServicios2">
                             <img class="items" src="./objetos/exclusive.webp" alt="">
                             <h2>Diseño exclusivo</h2>
@@ -253,6 +254,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./script.js"></script>
 </body>
 
