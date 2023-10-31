@@ -67,8 +67,8 @@
 
 @media (max-width: 583px) {
     .boxNuestrosTrabajos iframe{
-        width: 20rem;
-        height: 40rem;
+        width: 23rem;
+        height: 38rem;
     }
 }
 
@@ -133,6 +133,13 @@
     .boxSobreNosotros {
         font-size: 0.8rem;
         text-align: center;
+    }
+}
+
+@media (max-width: 381px) {
+    .boxNuestrosTrabajos iframe{
+        width: 22.5rem;
+        height: 35rem;
     }
 }
 
