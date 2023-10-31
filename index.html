@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -48,7 +51,7 @@
                         funcionalidad y rendimiento para que tu presencia en línea sea única y efectiva. Si buscas
                         soluciones web de vanguardia que destaquen en el mundo digital, ¡has llegado al lugar adecuado!
                     </p>
-                    <button class="botonContacto">Contacto</button>
+                    <a href="./pages/secundarias/contact.html"><button class="botonContacto">Contacto</button></a>
                 </div>
                 <div data-aos="fade-left" class="boxInicio2">
                     <img class="logoGrande" src="./objetos/logo webtec copia.webp" alt="">
@@ -66,7 +69,7 @@
                             <img class="items" src="./objetos/trabajo.webp" alt="">
                             <h2>Landing page</h2>
                             <p>Creamos tu landing page para mostrar lo que haces y darte a conocer en internet</p>
-                            <button class="botonContacto">Consultar</button>
+                            <a href="./pages/secundarias/contact.html"><button class="botonContacto">Consultar</button></a>
                         </div>
                     </div>
                     <div data-aos="zoom-in" class="col-md-4 d-flex align-items-center justify-content-center">
@@ -76,7 +79,7 @@
                             <p>Te damos la oportunidad de mostrar tu empresa en internet y conseguir clientes de manera
                                 fácil, ofreciendo comunicación a través de la web y información de la empresa para
                                 concretar compras de manera fácil y rápida.</p>
-                            <button class="botonContacto">Consultar</button>
+                            <a href="./pages/secundarias/contact.html"><button class="botonContacto">Consultar</button></a>
                         </div>
                     </div>
                     <div data-aos="zoom-in" class="col-md-4 d-flex align-items-center justify-content-center">
@@ -85,7 +88,7 @@
                             <h2>Ecommerce</h2>
                             <p>Ofrecemos la oportunidad de vender directamente desde la web sin necesidad de un lugar
                                 físico, ofreciéndote la mayor comodidad.</p>
-                            <button class="botonContacto">Consultar</button>
+                            <a href="./pages/secundarias/contact.html"><button class="botonContacto">Consultar</button></a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +113,7 @@
                             <img class="items" src="./objetos/personalizado.webp" alt="">
                             <h2>Diseño personalizado</h2>
                             <p>Personalizamos tu aplicación web a medida según tus necesidades</p>
-                            <button class="botonContacto">Consultar</button>
+                            <a href="./pages/secundarias/contact.html"><button class="botonContacto">Consultar</button></a>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
@@ -118,7 +121,7 @@
                             <img class="items" src="./objetos/responsive.webp" alt="">
                             <h2>Diseño responsive</h2>
                             <p>Nuestros diseños son totalmente responsive, logrando la utilización de la aplicación web en todos los dispositivos</p>
-                            <button class="botonContacto">Consultar</button>
+                            <a href="./pages/secundarias/contact.html"><button class="botonContacto">Consultar</button></a>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
@@ -126,7 +129,7 @@
                             <img class="items" src="./objetos/exclusive.webp" alt="">
                             <h2>Diseño exclusivo</h2>
                             <p>Los diseños son totalmente exclusivos para cada cliente, brindando originalidad a los diseños.</p>
-                            <button class="botonContacto">Consultar</button>
+                            <a href="./pages/secundarias/contact.html"><button class="botonContacto">Consultar</button></a>
                         </div>
                     </div>
                 </div>
@@ -134,18 +137,18 @@
         </section>
         
         <section>
-            <form class="formulario">
-                <div class="tituloSection">
-                    <h2 data-aos="fade-right">Pedi tu presupuesto</h2>
+            <form action="https://formsubmit.co/agustinlaley@gmail.com" method="POST" class="formulario">
+                <div class="tituloSection espacio">
+                    <h2 id="cont" data-aos="fade-right">Completa el formulario</h2>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                    <input name="mail" type="email" class="form-control" id="exampleFormControlInput1"
                         placeholder="name@example.com">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Motivo</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select name="opcion" class="form-control" id="exampleFormControlSelect1">
                         <option>LandingPage</option>
                         <option>Empresas</option>
                         <option>Ecommerce</option>
@@ -154,7 +157,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="submit" class="botonContacto">Enviar</button>
             </form>

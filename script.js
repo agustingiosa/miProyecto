@@ -48,3 +48,8 @@ window.addEventListener('scroll', function() {
     }
 });
 
+window.addEventListener("load", function () {
+    var loader = document.querySelector(".loader-wrapper");
+    loader.style.display = "none";
+});
+
