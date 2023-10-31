@@ -241,6 +241,7 @@ footer {
     bottom: 4rem;
     right: 2rem; 
     transition: transform 0.2s ease;
+    z-index: 3;
 }
 .iconoWppFixed:hover {
     transform: scale(1.1);
@@ -253,6 +254,7 @@ footer {
     bottom: 9rem;
     right: 2rem; 
     transition: transform 0.2s ease;
+    z-index: 3;
 }
 .iconoWppFixed2:hover {
     transform: scale(1.1);
