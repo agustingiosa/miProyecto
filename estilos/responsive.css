@@ -28,6 +28,15 @@
     }
 }
 
+@media (max-width: 780px) {
+    .boxSobreNosotros p{
+        text-align: center;
+    }
+    .boxSobreNosotros {
+        width: 35rem;
+    }
+}
+
 @media (max-width: 731px) {
     .boxSobreNosotros {
         width: 80vh;
@@ -51,6 +60,9 @@
     .textoSectionImagen {
         font-size: 1.6rem;
     }
+    .boxSobreNosotros{
+        width: 30rem;
+    }
 }
 
 @media (max-width: 583px) {
@@ -62,6 +74,9 @@
 
 @media (max-width: 537px) {
     .form-group {
+        width: 25rem;
+    }
+    .boxSobreNosotros{
         width: 25rem;
     }
 }
@@ -103,7 +118,7 @@
         font-size: 1.2rem;
     }
     .boxSobreNosotros {
-        width: 70vh;
+        width: 20rem;
     }
 }
 
@@ -111,14 +126,11 @@
     .form-group {
         width: 20rem;
     }
-    .boxSobreNosotros {
-        width: 60vh;
-    }
     .boxSobreNosotros h2{
         font-size: 1.5rem;
         text-align: center;
     }
-    .boxSobreNosotros p {
+    .boxSobreNosotros {
         font-size: 0.8rem;
         text-align: center;
     }
