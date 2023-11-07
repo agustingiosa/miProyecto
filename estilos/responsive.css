@@ -4,6 +4,12 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .caracteristicas {
+        height: 40rem;
+    }
+}
+
 @media (max-width: 1188px) {
     .contenedorInicio {
         flex-direction: column;
@@ -16,6 +22,12 @@
     }
     .boxInicio p {
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1060px) {
+    .texto {
+        text-align: center;
     }
 }
 
