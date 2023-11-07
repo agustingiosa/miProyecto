@@ -28,15 +28,6 @@
     }
 }
 
-@media (max-width: 780px) {
-    .boxSobreNosotros p{
-        text-align: center;
-    }
-    .boxSobreNosotros {
-        width: 35rem;
-    }
-}
-
 @media (max-width: 731px) {
     .boxSobreNosotros {
         width: 80vh;
@@ -60,23 +51,17 @@
     .textoSectionImagen {
         font-size: 1.6rem;
     }
-    .boxSobreNosotros{
-        width: 30rem;
-    }
 }
 
 @media (max-width: 583px) {
     .boxNuestrosTrabajos iframe{
-        width: 23rem;
-        height: 38rem;
+        width: 20rem;
+        height: 40rem;
     }
 }
 
 @media (max-width: 537px) {
     .form-group {
-        width: 25rem;
-    }
-    .boxSobreNosotros{
         width: 25rem;
     }
 }
@@ -102,14 +87,15 @@
 
 @media (max-width: 495px) {
     .boxInicio {
-        height: 16rem;
+        height: 20rem;
         width: 19rem;
     }
     .boxInicio h1 {
-        font-size: 0.7rem;
+        font-size: 1rem;
+        text-align: center;
     }
     .boxInicio p {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     .logoGrande {
         width: 17rem;
@@ -118,7 +104,7 @@
         font-size: 1.2rem;
     }
     .boxSobreNosotros {
-        width: 20rem;
+        width: 70vh;
     }
 }
 
@@ -126,20 +112,16 @@
     .form-group {
         width: 20rem;
     }
+    .boxSobreNosotros {
+        width: 60vh;
+    }
     .boxSobreNosotros h2{
         font-size: 1.5rem;
         text-align: center;
     }
-    .boxSobreNosotros {
+    .boxSobreNosotros p {
         font-size: 0.8rem;
         text-align: center;
-    }
-}
-
-@media (max-width: 381px) {
-    .boxNuestrosTrabajos iframe{
-        width: 22.5rem;
-        height: 35rem;
     }
 }
 
