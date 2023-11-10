@@ -40,9 +40,19 @@
     }
 }
 
+@media (max-width: 864px) {
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 816px) {
+    
+}
+
 @media (max-width: 731px) {
     .boxSobreNosotros {
-        width: 80vh;
+       width: 20rem;
     }
 }
 
@@ -115,25 +125,13 @@
     .textoSectionImagen {
         font-size: 1.2rem;
     }
-    .boxSobreNosotros {
-        width: 70vh;
+}
+
+@media (max-width: 417px) {
+    h2 {
+        text-align: center;
     }
 }
 
-@media (max-width: 437px) {
-    .form-group {
-        width: 20rem;
-    }
-    .boxSobreNosotros {
-        width: 60vh;
-    }
-    .boxSobreNosotros h2{
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .boxSobreNosotros p {
-        font-size: 0.8rem;
-        text-align: center;
-    }
-}
+
 
