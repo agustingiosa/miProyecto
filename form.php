@@ -1,19 +1,20 @@
 <?php
 
-$mail = $_POST['mail']
-$opcion = $_POST['opcion']
-$mensaje = $_POST['mensaje']
+$mail = $_POST['mail'];
+$opcion = $_POST['opcion'];
+$mensajeTexto = $_POST['mensaje'];
 
-$mensaje = "este mensaje fue enviado por " . $mail . ",\r\n";
-$mensaje = "asunto " . $opcion . ",\r\n";
-$mensaje = "mensaje " . $mensaje . ",\r\n";
-$mensaje = "enviado el  " . date('d/m/Y', time());
+$mensaje = "Este mensaje fue enviado por " . $mail . ",\r\n";
+$mensaje .= "Asunto: " . $opcion . ",\r\n";
+$mensaje .= "Mensaje: " . $mensajeTexto . ",\r\n";
+$mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $para = 'agustinlaley@gmail.com';
 $asunto = 'WebTec';
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+mail($para, $asunto, utf8_decode($mensaje));
 
-header('location:index.html')
+header('Location: index.html');
+exit;
 
 ?>
